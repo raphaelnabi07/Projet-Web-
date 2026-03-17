@@ -44,8 +44,10 @@
             <h2>Web Dynamique</h2>
             <div class="prof" class="Mohamed">
                 <img src="../Photo Profs/Mohamed.jpg" alt="Mohamed HAMIDI">
-                <h3>Mohamed HAMIDI</h3>
-                <p>Professeur de Web Dynamique</p>
+                <div>
+                    <h3>Mohamed HAMIDI</h3>
+                    <p>Professeur de Web Dynamique</p>
+<               </div>
             </div>
         </div>
 

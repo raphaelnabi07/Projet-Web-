@@ -15,6 +15,7 @@
                     <a href="../html/webdynamique.php"><strong>Web Dynamique</strong></a>
                 </div>
             </li>
+            <a href="../html/equipeenseignante.php"><strong>Équipe enseignants</strong></a>
             <a href="../html/association.php"><strong>Associations</strong></a>
             <a href="../html/locaux.php"><strong>Locaux</strong></a>
             <a href="../html/apropos.php"><strong>A propos</strong></a>
