@@ -7,6 +7,6 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="../js/script.js" defer></script>
 </head>
-<?php include 'header.php'; ?>
-<?php include 'footer.php'; ?>
+<?php include '../php/header.php'; ?>
+<?php include '../php/footer.php'; ?>
 </html>
