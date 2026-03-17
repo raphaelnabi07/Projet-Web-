@@ -10,29 +10,7 @@
 
 <body>
 
-<header>
-    <div>
-        <div>
-            <img src="../images/efrei.jpg" width="200" height="75">
-        </div>
-
-        <nav>
-            <a href="accueil.html">Accueil</a>
-            <li class="dropdown">
-                <a href="">Formations et Cours ▾</a>
-                <div>
-                    <a href="basededonnee.html">Base de donnée</a>
-                    <a href="langageC.html">Langage C</a>
-                    <a href="reseau.html">Réseau</a>
-                    <a href="webdynamique.html">Web Dynamique</a>
-                </div>
-            </li>
-            <a href="association.html">Associations</a>
-            <a href="locaux.html">Locaux</a>
-            <a href="apropos.html">A propos</a>
-        </nav>
-    </div>
-</header>
+<?php include '../php/header.php'; ?>    
 
 <main>
     <section class="equipe-enseignante">
@@ -83,31 +61,7 @@
     </section>
 </main>
 
-<footer>
-    <div>
-        <div>
-            <img src="../images/efrei.jpg" width="200" height="75">
-        </div>
-
-        <div>
-            <p><strong>Créer par :</strong> Thierno Diallo & Raphaël Nabi</p>
-            <p><strong>Plus d'info sur :</strong> <a href="apropos.html">A propos</a></p>
-        </div>
-
-        <div>
-            <p><strong>Contact de l'école :</strong></p>
-            <div>
-                <p><strong>Bordeaux :</strong> + 33 582 060 162</p>
-                <p><strong>Paris :</strong> + 33 188 289 001</p>
-                <p><strong>Accueil :</strong> + 33 188 289 000</p>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <p>Dernière modification : 20/02/2026</p>
-    </div>
-</footer>
+<?php include '../php/footer.php'; ?>
 
 </body>
 </html>
