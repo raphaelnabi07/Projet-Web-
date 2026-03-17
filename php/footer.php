@@ -7,7 +7,7 @@
 
         <div >
             <p><strong>Créer par :</strong> Thierno Diallo & Raphaël Nabi</p>
-            <p><strong>Plus d'info sur :</strong> <a href="apropos.html">A propos</a></p>
+            <p><strong>Plus d'info sur :</strong> <a href="apropos.php">A propos</a></p>
         </div>
 
         <div>
