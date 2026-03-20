@@ -2,7 +2,7 @@
     <div >
         
         <div class="bas-accueil-image">
-            <img src="../images/efrei.jpg" alt="Logo Efrei" width="200" height="75">
+            <img src="../images/efrei.jpg" alt="Logo Efrei" width="100" height="35">
         </div>
 
         <div >
