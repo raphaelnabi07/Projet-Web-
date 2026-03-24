@@ -87,7 +87,23 @@
                 </tbody>
             </table>
         </div>
-        <div>
+        <div class="stats-sidebar">
+            <div class="stat-card">
+                <span class="stat-number">4 500</span>
+                <span class="stat-label">Étudiants</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">14 000</span>
+                <span class="stat-label">Anciens élèves</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Universités partenaires</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">98%</span>
+                <span class="stat-label">Emploi en < 2 mois</span>
+            </div>
         </div>
     </section>
 </body>

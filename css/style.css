@@ -103,7 +103,7 @@ body{
 }
 
 .departement{
-    background-color: rgba(40, 59, 99,1);
+    background-color: rgba(40, 59, 99,0.9);
     border-radius: 15px;
     padding: 15px;
     margin: 20px;
@@ -115,7 +115,7 @@ body{
 }
 
 .equipe-enseignante{
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 20px;
     margin: 10px;
     display: flex;
@@ -128,7 +128,7 @@ body{
 
 .prof{
     border: 2px solid rgb(40, 59, 99) ;
-    border-radius: 200px;
+    border-radius: 80px;
     padding: 20px;
     margin: 10px;
     background-color: white;
@@ -150,7 +150,7 @@ body{
 
 .equipe-enseignante > div{
     border: 2px solid rgb(40, 59, 99) ;
-    border-radius: 60px;
+    border-radius: 20px;
     background-color: rgb(40, 59, 99);
     padding: 20px;  
     margin: 10px;
@@ -162,7 +162,7 @@ body{
 }
 
 .qui{
-    background-color: rgba(40, 59, 99,1);
+    background-color: rgba(40, 59, 99,0.9);
     color: white;
     margin: 15px;
     border: 2px solid rgba(40, 59, 99,1);
@@ -235,7 +235,7 @@ body{
 
 .btn {
     position: absolute;
-    top: 50%;
+    top: 53%;
     background-color: rgb(255, 255, 255);
     border: none;
     border-radius: 50%;
@@ -367,13 +367,6 @@ img:hover {
     transform: scale(1.01);
 }
 
-
-
-
-
-
-
-
 .classement-container {
     max-width: 800px;
     margin: 40px auto;
@@ -405,7 +398,7 @@ img:hover {
 
 .top-1 td {
     background: linear-gradient(90deg, #fff9e6, #ffffff);
-    border-color: #ffd700; font-weight: bold;
+    border-color: #ffd700;
 }
 
 .top-1 .rank {
@@ -424,6 +417,7 @@ img:hover {
 .top-3 td {
     background: linear-gradient(90deg, #fff5ee, #ffffff);
     border-color: #cd7f32;
+    font-weight: bold;
 }
 
 .top-3 .rank {
@@ -431,8 +425,160 @@ img:hover {
 }
 
 .contenu-chiffres{
-    background-color: rgba(40, 59, 99,1);
+    background-color: rgba(40, 59, 99,0.9);
     border-radius: 15px;
     padding: 15px;
     margin: 20px;
+    display: flex;
+}
+
+.stats-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    flex: 1;
+    max-width: 300px;
+    margin: 40px;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #00d4ff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateX(10px);
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #a0c4ff; /* Bleu très clair pour le texte secondaire */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+/* --- PAGE A PROPOS --- */
+
+.container-propos {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.titre-page {
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+/* Container des deux cartes */
+.equipe-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap; /* Important pour le responsive */
+}
+
+/* Style des cartes membres */
+.membre-card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    border: 2px solid #00d4ff;
+}
+
+.photo-profil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #004a99;
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link-linkedin { background: #0077b5; color: white; }
+.link-github { background: #333; color: white; }
+
+.social-links a:hover { opacity: 0.8; transform: translateY(-3px); }
+
+/* Section Explication */
+.explication-projet {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 30px;
+    color: #283b63;
+}
+
+.explication-projet h2 {
+    border-bottom: 3px solid #00d4ff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-github-projet {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: #283b63;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* --- RESPONSIVE A PROPOS --- */
+@media screen and (max-width: 768px) {
+    .equipe-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .membre-card {
+        width: 100%;
+        max-width: 400px;
+    }
 }
