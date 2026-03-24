@@ -1,14 +1,16 @@
 body{
-    background-image: url("../images/Efrei_background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35)), url("../images/Efrei_background.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 30px;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
 }
+
 .haut-accueil{
-    background-color: rgba(51, 100, 164,0.8);
+    background-color: rgba(40, 59, 99,0.8);
     margin: 10px;
     border-radius: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     text-align: center;
     position: sticky;
@@ -20,10 +22,9 @@ body{
 }
 
 .bas-accueil{
-    background-color: rgba(51, 100, 164,0.8);
+    background-color: rgba(40, 59, 99,0.8);
     margin: 10px;
     border-radius: 15px;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     gap: 90px;
     text-align: center;
@@ -46,7 +47,7 @@ body{
 }
 
 .haut-accueil >* a{
-    color: rgb(51, 100, 164);
+    color: rgba(40, 59, 99,1);
     text-decoration: none;
     background-color: white;
     border-radius: 15px;
@@ -81,13 +82,13 @@ body{
 
 .sous-menu-content a:hover {
     background-color: #f1f1f1;
-    color: #000;
+    color: rgb(40, 59, 99);
     transform: scale(1.03);
 }
 
 .haut-accueil >* a:hover {
     background-color: #f1f1f1;
-    color: #000;
+    color: rgb(40, 59, 99);
     transform: scale(1.03);
 }
 
@@ -102,7 +103,7 @@ body{
 }
 
 .departement{
-    background-color: rgb(51, 100, 164);
+    background-color: rgba(40, 59, 99,1);
     border-radius: 15px;
     padding: 15px;
     margin: 20px;
@@ -117,7 +118,6 @@ body{
     border-radius: 20px;
     padding: 20px;
     margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -127,7 +127,7 @@ body{
 }
 
 .prof{
-    border: 2px solid black ;
+    border: 2px solid rgb(40, 59, 99) ;
     border-radius: 200px;
     padding: 20px;
     margin: 10px;
@@ -136,7 +136,7 @@ body{
 }
 
 .equipe-enseignante>*>* img{
-    border: 2px solid black ;
+    border: 2px solid rgb(40, 59, 99) ;
     border-radius: 200px;
 }
 
@@ -149,26 +149,27 @@ body{
 
 
 .equipe-enseignante > div{
-    border: 2px solid black ;
+    border: 2px solid rgb(40, 59, 99) ;
     border-radius: 60px;
-    background-color: rgba(255, 255, 255,0);
+    background-color: rgb(40, 59, 99);
     padding: 20px;  
     margin: 10px;
     width: 45%;
     background-image: linear-gradient(rgba(255, 255, 255,0.9)), url("../images/Efrei_background.jpg");
     background-size: cover;
     background-attachment: fixed;
+    color: rgba(40, 59, 99,1);
 }
 
 .qui{
-    background-color: rgb(51, 100, 164);
+    background-color: rgba(40, 59, 99,1);
     color: white;
     margin: 15px;
-    border: 2px solid black;
+    border: 2px solid rgba(40, 59, 99,1);
     border-radius: 15px;
     width: 60%;
     text-align: center;
-    background-image: linear-gradient(rgba(51, 100, 164,0.9)), url("../images/Efrei_background.jpg");
+    background-image: linear-gradient(rgba(40, 59, 99,0.9)), url("../images/Efrei_background.jpg");
     background-attachment: fixed;
 }
 
@@ -177,19 +178,14 @@ body{
     margin-right: 20px;
 }
 
-.departement {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-}
-
 .liste-modules{
-    background-color: rgba(51, 100, 164,0.8);
+    background-color: rgba(40, 59, 99,0.8);
     color: white;
     margin: 15px;
-    border: 2px solid black;
+    border: 2px solid rgba(40, 59, 99,1);
     border-radius: 15px;
     text-align: center;
-    background-image: linear-gradient(rgba(51, 100, 164,0.85)), url("../images/Efrei_background.jpg");
+    background-image: linear-gradient(rgba(40, 59, 99,0.9)), url("../images/Efrei_background.jpg");
     background-attachment: fixed;
 }
 
@@ -246,7 +242,7 @@ body{
     width: 40px;
     height: 40px;
     cursor: pointer;
-    box-shadow: 0 1px 10px rgb(0,0,0);
+    box-shadow: 0 1px 10px rgba(40, 59, 99,1);
 }
 
 .prev { 
@@ -255,4 +251,188 @@ body{
 
 .next {
     right: 10px;
+}
+
+.association > div {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(40, 59, 99);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 60px;
+    color: rgb(255, 255, 255)
+}
+
+.div-asso{
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.div-asso img{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.img-asso{  
+    margin-right: 60px;
+}
+
+.association h2{
+    text-align: center;
+}
+
+.association > h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    background-color: rgb(40, 59, 99);
+    padding: 15px;
+    margin: 60px;
+    text-align: center;
+}
+
+strong {
+    color: rgb(42, 110, 170);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #00d4ff;
+    font-weight: bold;
+}
+
+.Locaux-Efrei > h1{
+    background: white;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(42, 110, 170);
+    margin: 50px;
+}
+
+.La-Maison h2, .La-Factory h2{
+    color: rgb(42, 110, 170);
+    border-bottom: 2px solid #00d4ff;
+    width: 120px;
+}
+
+.Aquarium h2{
+    color: rgb(42, 110, 170);
+    border-bottom: 2px solid #00d4ff;
+    width: 130px;    
+}
+
+.New-Republic h2{
+    color: rgb(42, 110, 170);
+    border-bottom: 2px solid #00d4ff;
+    width: 160px;    
+}
+
+.Campus-Bordeaux h2{
+    color: rgb(42, 110, 170);
+    border-bottom: 2px solid #00d4ff;
+    width: 245px;    
+}
+
+body {
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.La-Maison, .La-Factory, .Aquarium, .New-Republic, .Campus-Bordeaux {
+    background: white;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    border: 2px solid #00d4ff;
+    overflow: hidden;
+    margin: 50px;
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+
+
+
+
+
+
+
+.classement-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.classement-table {
+    width: 100%;
+    border-spacing: 0 10px; 
+}
+
+.classement-table th {
+    padding: 15px;
+    text-align: left;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.classement-table td {
+    padding: 15px;
+    background: #fdfdfd;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.top-1 td {
+    background: linear-gradient(90deg, #fff9e6, #ffffff);
+    border-color: #ffd700; font-weight: bold;
+}
+
+.top-1 .rank {
+    color: #ffd700; font-size: 1.5rem;
+}
+
+.top-2 td {
+    background: linear-gradient(90deg, #f5f5f5, #ffffff);
+    border-color: #c0c0c0;
+}
+
+.top-2 .rank {
+    color: #c0c0c0; font-size: 1.5rem;
+}
+
+.top-3 td {
+    background: linear-gradient(90deg, #fff5ee, #ffffff);
+    border-color: #cd7f32;
+}
+
+.top-3 .rank {
+    color: #cd7f32; font-size: 1.5rem;
+}
+
+.contenu-chiffres{
+    background-color: rgba(40, 59, 99,1);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px;
 }

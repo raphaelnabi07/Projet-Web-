@@ -71,6 +71,14 @@
                         </div>
                         
                     </div>
+                    <div class="prof">
+                        <img src="../Photo Profs/Rado.jpg" width="200" height="200" alt="Rado Rakotonarivo Rado">
+                        <div>
+                            <h3>Rakotonarivo Rado</h3>
+                            <p><strong>Professeur de Web Dynamique</strong></p>
+                            <p><strong>Email :</strong> rado.rakotonarivo@efrei.fr</p>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="card">
@@ -81,6 +89,14 @@
                             <h3>Lena TREBAUL</h3>
                             <p><strong>Professeur de Bases de Données</strong></p>
                             <p><strong> Email :</strong> lena.trebaul@efrei.fr</p>
+                        </div>
+                    </div>
+                    <div class="prof">
+                        <img src="../Photo Profs/Cherifa.jpg" width="200" height="200" alt="Cherifa Ben Khelil">
+                        <div>
+                            <h3>Cherifa Ben Khelil</h3>
+                            <p><strong>Professeur de Bases de Données</strong></p>
+                            <p><strong>Email :</strong> cherifa.ben-khelil@efrei.fr</p>
                         </div>
                     </div>
                 </div>

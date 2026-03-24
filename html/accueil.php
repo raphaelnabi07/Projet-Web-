@@ -47,10 +47,49 @@
             </div>          
         </div>
     </div>
-
-    <div class="classement">
-        
-    </div>
+    <section class="contenu-chiffres">
+        <div class="classement-container">
+            <h2>🏆 Classement des classements des meilleurs écoles d'ingénieurs POSTBAC</h2>
+            <table class="classement-table">
+                <thead>
+                    <tr>
+                        <th>Rang</th>
+                        <th>École</th>
+                        <th>Moyenne Rang</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="top-1">
+                        <td class="rank">1</td>
+                        <td class="name">INSA Lyon</td>
+                        <td class="moyenne">3,00</td>
+                    </tr>
+                    <tr class="top-2">
+                        <td class="rank">2</td>
+                        <td class="name">LV - Paris-La Défense</td>
+                        <td class="moyenne">3,00</td>
+                    </tr>                
+                    <tr class="top-3">
+                        <td class="rank">3</td>
+                        <td class="name">Efrei Paris</td>
+                        <td class="moyenne">4,67</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">4</td>
+                        <td class="name">UTC - Compiègne</td>
+                        <td class="moyenne">5,00</td>
+                    </tr>
+                    <tr>
+                        <td class="rank">5</td>
+                        <td class="name">ESIEE Paris - Marne-la-Valée</td>
+                        <td class="moyenne">7,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+        </div>
+    </section>
 </body>
 
 <?php include '../php/footer.php'; ?>

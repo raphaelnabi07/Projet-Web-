@@ -13,10 +13,10 @@
 <?php include '../php/header.php'; ?>
 
 <main> 
-    <section class="Locaux Efrei Paris">
+    <section class="Locaux-Efrei">
         <h1> Locaux de l'Efrei (Paris)</h1>
 
-        <div class="La Maison">
+        <div class="La-Maison">
             <h2>La Maison</h2>
             <img src="../images/LaMaison.jpg" alt="La Maison - Cœur du campus EFREI Paris" style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 8px;">
             <p>
@@ -39,7 +39,7 @@
             </p>
         </div>
 
-        <div class="La Factory">
+        <div class="La-Factory">
             <h2>La Factory</h2>
             <img src="../images/LaFactory.jpg" alt="La Factory - Espace d'innovation et de coworking" style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 8px;">
     
@@ -62,7 +62,7 @@
             </p>
         </div>
 
-        <div class="aquarium">
+        <div class="Aquarium">
             <h2>L’Aquarium</h2>
             <img src="../images/aquarium-de-paris-1.jpg" alt="L'Aquarium - Pôle des enseignements transversaux" style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 8px;">
 
@@ -85,12 +85,12 @@
             </p>
         </div>
 
-        <div class="New Republic">
+        <div class="New-Republic">
             <h2>New Republic</h2>
             <img src="../images/NewRepublic.jpg" alt="New Republic - Extension moderne du campus" style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 8px;">
     
             <p>
-                Inauguré récemment (2026) pour accompagner l'expansion de l'école, le <strong>New Republic</strong> est le bâtiment <strong>le plus récent<strong> du campus. 
+                Inauguré récemment (2026) pour accompagner l'expansion de l'école, le <strong>New Republic</strong> est le bâtiment <strong>le plus récent</strong> du campus. 
                 Il répond aux nouveaux enjeux pédagogiques grâce à des infrastructures modernes réparties sur plusieurs étages :
             </p>
             <ul>
@@ -105,12 +105,8 @@
                 Le New Republic s'inscrit pleinement dans une logique d'<strong>innovation</strong> et de <strong>modernisation</strong> de l'environnement éducatif.
             </p>
         </div>
-    </section>
 
-    <section class="Efrei Bordeaux">
-
-        <h1>Locaux de l'Efrei (Bordeaux)</h1>
-        <div class="campus bordeaux">
+        <div class="Campus-Bordeaux">
 
             <h2>Campus de Bordeaux</h2>
             <img src="../images/bordeaux-2023-1.jpg" alt="Campus EFREI Bordeaux - Bassins à Flot" style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 8px;">
@@ -131,6 +127,7 @@
                 Tourné vers l'avenir, le site s'inscrit dans une <strong>dynamique de croissance</strong> avec des évolutions prévues pour accompagner l'augmentation du nombre d'étudiants et le développement des formations.
             </p>
         </div>
+    </section>
 
 <?php include '../php/footer.php'; ?>
 </html>
