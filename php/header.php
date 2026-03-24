@@ -7,7 +7,7 @@
         <nav>
             <a href="../html/accueil.php"><strong>Accueil</strong></a>
             <li class="dropdown" id="Menu">
-                <a href="#"><strong>Formations et Cours ▾</strong></a>
+                <a href="#"><strong>Permanences et Cours ▾</strong></a>
                 <div class="sous-menu-content">
                     <a href="../html/basededonnee.php"><strong>Base de donnée</strong></a>
                     <a href="../html/langageC.php"><strong>Langage C</strong></a>
