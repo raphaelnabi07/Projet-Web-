@@ -15,11 +15,12 @@ $sql = "CREATE TABLE IF NOT EXISTS permanences (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom_eleve VARCHAR(100) NOT NULL,
     matiere VARCHAR(100) NOT NULL,
+    date_permanence DATE NOT NULL,
     heure_souhaitee TIME NOT NULL,
     format_seance VARCHAR(50) NOT NULL,
     statut VARCHAR(20) DEFAULT 'En attente',
     date_demande TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB;";
+)";
 
 $pdo->exec($sql);
 

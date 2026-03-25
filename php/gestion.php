@@ -25,6 +25,7 @@
                 <tr class="tr-gestion">
                     <th class="th-gestion">Élève</th>
                     <th class="th-gestion">Matière</th>
+                    <th class="th-gestion">Date</th>
                     <th class="th-gestion">Heure</th>
                     <th class="th-gestion">Statut</th>
                     <th class="th-gestion">Actions</th>
@@ -33,11 +34,12 @@
             <tbody>
                 <?php
                 //stocke($stmt) le resultat de l'execution de la commande(query()) 
-                $stmt = $pdo->query("SELECT * FROM permanences ORDER BY date_demande DESC");
+                $stmt = $pdo->query("SELECT * FROM permanences ORDER BY date_permanence ASC, heure_souhaitee ASC");
                 while($row = $stmt->fetch()): ?>
                     <tr id="row-<?php echo $row['id']; ?>">
                         <td class="td-gestion"><?php echo ($row['nom_eleve']); ?></td>
                         <td class="td-gestion"><?php echo ($row['matiere']); ?></td>
+                        <td class="td-gestion"><?php echo ($row['date_permanence']); ?></td>
                         <td class="td-gestion"><?php echo ($row['heure_souhaitee']); ?></td>
                         <td class="td-gestion" id="statut-<?php echo $row['id']; ?>">
                             <?php 
