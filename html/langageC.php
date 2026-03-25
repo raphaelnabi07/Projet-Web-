@@ -15,69 +15,53 @@
 
 <body>
     <div class="C langage">
-        <h2>Langage C : Maîtrise de l'Architecture Logicielle, Gestion de la Mémoire et Programmation Système</h2>
-        <img src="../images/langageC.jpg" alt="Programmation C Avancée" style="width: 100%; max-width: 800px; height: 400px; object-fit: cover; border-radius: 8px;">
+        <h2>Langage C : Algorithmique Avancée et Programmation Système</h2>
+        <img src="../images/langageC.jpg" alt="Programmation C Avancée" style="width: 100%; max-width: 900px; height: 450px; object-fit: cover; border-radius: 8px;">
 
         <p>
-            Le langage C constitue l'un des fondements de la programmation informatique moderne et occupe une place centrale dans la formation des étudiants en informatique, en effet il permet de comprendre en profondeur le fonctionnement interne des programmes et leur interaction avec la machine. Notamment grâce à la gestion de la mémoire, à l'utilisation des pointeurs, à la manipulation des tableaux ainsi que des structures de données, ainsi qu'à l'écriture d'algorithmes optimisés et structurés, ce qui développe de ce fait une rigueur logique essentielle pour aborder des projets complexes, tout en introduisant des notions fondamentales, telles que le processus de compilation, l'organisation modulaire du code en fichiers sources et en bibliothèques, la gestion des entrées et sorties standard, le traitement des erreurs et le débogage de programmes, permettant ainsi aux étudiants d'acquérir une compréhension précise de la manière dont les logiciels sont exécutés au niveau du système, compétence indispensable pour évoluer vers des domaines plus avancés comme la programmation système, les systèmes embarqués, la cybersécurité, l'optimisation logicielle ou encore le développement de systèmes d'exploitation, faisant ainsi du langage C un outil incontournable pour construire des bases solides, durables et transférables vers de nombreux autres langages et environnements de programmation. 
+            Le langage C est le fondement de l'informatique moderne. Ce module de 60 heures vous plonge au cœur de la machine pour maîtriser la gestion de la mémoire et l'optimisation logicielle. En passant de l'algorithmique pure sur papier à l'implémentation de systèmes complexes, vous développerez une rigueur de fer indispensable pour la cybersécurité, les systèmes embarqués et le développement de logiciels hautes performances. 💻
         </p>
 
-        <h3>Architecture et Découpage Pédagogique d'un Bloc de 5 heures</h3>
+        <h3>Déroulé du module (12 séances de 5 heures)</h3>
+        
         <p>
-            Une session de 5 heures en Langage C ne se contente pas d'aligner des lignes de code.
+            <strong>Séances 1 à 4 : Algorithmique Fondamentale (Papier) :</strong> 
+            Avant de toucher au clavier, vous apprendrez à structurer votre pensée. Analyse de problèmes, tracé de logigrammes et écriture d'algorithmes complexes sans ordinateur. Cette phase culmine avec un premier examen sur table pour valider votre logique pure.
         </p>
         <p>
-            <strong>La Première Phase (0h00 - 1h30) : La Théorie des Mécanismes Internes (grossomodo le cours).</strong> Cette phase est dédiée à l'abstraction conceptuelle. Un exemple : On décortique la pile (Stack), cet espace ordonné pour les variables locales et les contextes d'appels, et on la confronte au tas (Heap), cet espace vaste mais chaotique où l'allocation dynamique règne. L'accent est mis sur la difficulté de la compilation : du code source (.c) au processeur, puis de l'assembleur à l'édition de liens (Linker). C'est ici que l'on comprend pourquoi une simple inclusion de bibliothèque peut transformer radicalement la taille d'un binaire.
+            <strong>Séances 5 & 6 : Bases du C et Syntaxe Rigoureuse :</strong> 
+            Transition vers le code. Apprentissage des types de données, des structures de contrôle et des fonctions. L'accent est mis sur la compilation (GCC) et la compréhension du passage d'un code source à un binaire exécutable.
         </p>
         <p>
-            <strong>La Deuxième Phase (1h30 - 4h15) :Les TPs.</strong> C'est le cœur de la séance. Les étudiants sont confrontés à des défis de programmation. Ils doivent implémenter des structures de données, à partir de rien parfois : recréer des listes chaînées, des files (queues), des piles (stacks) ou des arbres binaires de recherche. L'objectif est de manipuler les pointeurs avec une précision chirurgicale. On apprend à gérer les pointeurs de fonctions, les tableaux multidimensionnels et les structures auto-référencées. Chaque octet compte. Un étudiant doit être capable de justifier chaque <em>malloc()</em> et de garantir l'existence d'un <em>free()</em> correspondant. C'est dans cette phase que se forge la "rigueur logique" : l'étudiant apprend à tester chaque condition limite (edge cases), à gérer les entrées nulles et à anticiper les débordements de tampon (buffer overflows).
+            <strong>Séances 7 & 8 : Gestion de la Mémoire et Pointeurs :</strong> 
+            Le cœur du langage C. Vous étudierez l'arithmétique des pointeurs, la différence entre la pile (stack) et le tas (heap), et apprendrez à manipuler les adresses mémoires (malloc/free) pour créer des programmes optimisés.
         </p>
         <p>
-            <strong>La Troisième Phase (4h15 - 5h00) : Audit de Performance et Diagnostic.</strong> La séance se conclut par l'utilisation d'outils industriels. Le code produit est passé au crible de <em>Valgrind</em> pour traquer les fuites mémoires (Memory Leaks) et les accès invalides. On utilise <em>GDB</em> pour réaliser du pas-à-pas et observer l'évolution des registres du processeur. On analyse également la complexité algorithmique (notation Grand O) : pourquoi choisir un tri rapide (QuickSort) plutôt qu'un tri à bulles ? Cette heure transforme le développeur en un ingénieur capable d'optimiser les ressources pour des environnements contraints comme l'IoT ou l'embarqué.
+            <strong>Séances 9 à 11 : Atelier Projet - Gestionnaire de Formule 1 :</strong> 
+            Trois séances intensives de développement en binôme. Vous concevez une architecture modulaire pour gérer un championnat complet. C'est ici que vous appliquez les structures de données, la gestion de fichiers et la manipulation de pointeurs sur un cas concret.
+        </p>
+        <p>
+            <strong>Séance 12 : Soutenance et Évaluations Finales :</strong> 
+            L'aboutissement du module. Vous présentez votre gestionnaire de F1 lors d'une soutenance orale, suivie du passage du QCM technique et de l'examen final de développement sur papier pour valider votre expertise.
         </p>
 
-        <h3>Modalités d'Évaluation : Entre Précision Technique et Vision Projet</h3>
-        <p>
-            Le système d'évaluation est structuré pour garantir que seul un code robuste et sécurisé soit validé.
-        </p>
+        <h3>Modalités d'évaluation</h3>
         <ul>
-            <li><strong>L'Examen Machine (50% de la note finale) :</strong> C'est l'épreuve reine. Durant 4 heures, l'étudiant est seul face à son terminal, sans accès à Internet. Il doit résoudre un problème complexe (ex: créer un gestionnaire de bibliothèque, un simulateur de système de fichiers ou un algorithme de tri customisé). Le barème est impitoyable : un code qui ne compile pas ou qui subit un <em>Segmentation Fault</em> dès le premier test entraîne une note proche de zéro. On évalue la propreté du code, le respect de la norme (souvent C99 ou C11) et l'efficacité de la gestion mémoire.</li>
-            <li><strong>Le Projet de Semestre (30% de la note finale) :</strong> Travail de longue haleine réalisé en binôme. Les sujets sont ambitieux : recréer un mini-shell UNIX (interprétant les pipes, les redirections et les signaux), développer un moteur de jeu 2D avec la bibliothèque SDL, ou implémenter un algorithme de compression de données type Huffman. On y juge l'architecture modulaire, la capacité à découper un problème complexe en fonctions réutilisables, et la qualité de la documentation technique associée.</li>
-            <li><strong>Contrôles Continus et Tests de "Live Coding" (20% de la note finale) :</strong> Évaluations flash de 30 minutes en début de séance pour vérifier que les concepts de la semaine précédente (ex: arithmétique des pointeurs, structures de données) sont acquis et automatisés.</li>
+            <li><strong>Projet & Soutenance F1 (40%) :</strong> Évaluation du code (robustesse, gestion mémoire) et présentation orale de votre solution de gestion de championnat.</li>
+            <li><strong>Examen Final C (40%) :</strong> Épreuve mixant un QCM technique et une partie de développement algorithmique directement en langage C sur papier.</li>
+            <li><strong>Devoir Algorithmique (20%) :</strong> Examen écrit réalisé à l'issue des 20 premières heures, focalisé sur la résolution de problèmes logiques sans aide informatique.</li>
         </ul>
 
-        <h3>Les Clés Stratégiques de la Réussite</h3>
+        <h3>Clés de Réussite : Rigueur et Modélisation</h3>
         <p>
-            Réussir en C n'est pas une question de talent, mais de méthodologie. 
-        </p>
-        <p>
-            <strong>1. La Modélisation sur Papier :</strong> 80% du travail de programmation système se fait sans clavier. Un étudiant qui réussit est celui qui dessine ses structures de données, trace ses flèches de pointeurs et simule l'état de sa mémoire sur une feuille. Si l'algorithme n'est pas clair sur papier, il sera un désastre en code.
-        </p>
-        <p>
-            <strong>2. Le Dogme du "Clean Code" :</strong> En C, la lisibilité est une question de sécurité. Utiliser des noms de variables explicites, commenter les passages complexes et respecter une indentation stricte permet d'éviter les erreurs logiques que le compilateur ne verra pas. L'utilisation des flags de compilation (<code>-Wall -Wextra -Werror</code>) doit être systématique : un avertissement est traité comme une erreur fatale.
-        </p>
-        <p>
-            <strong>3. La Maîtrise des Outils de Debugging :</strong> Ne jamais deviner pourquoi un programme plante. Apprendre à lire un <em>stack trace</em>, à poser des <em>breakpoints</em> et à inspecter la valeur d'un pointeur en temps réel est la compétence qui sépare l'amateur du professionnel.
+            Pour réussir en C, la règle d'or est simple : 80% du travail se fait sur papier. Un étudiant qui dessine ses schémas mémoires et ses flèches de pointeurs avant de coder évite 90% des bugs. Soyez impitoyables avec votre code : utilisez systématiquement les flags de compilation (<em>-Wall -Wextra</em>) et traquez la moindre fuite mémoire avec Valgrind. La maîtrise du C ne s'acquiert pas par la lecture, mais par la pratique et une persévérance face aux erreurs de segmentation.
         </p>
 
-        <h3>Utilités Concrètes et Enjeux Industriels</h3>
+        <h3>Impact : Le Langage des Infrastructures Critiques</h3>
         <p>
-            Le Langage C est le langage des infrastructures critiques. Dans un monde de plus en plus virtuel, il reste le garant du réel.
-        </p>
-        <p>
-            <strong>Dans l'Aérospatiale et l'Automobile :</strong> C'est le langage utilisé pour les calculateurs de bord. Quand vous freinez avec un système ABS ou quand un satellite corrige sa trajectoire, c'est du code C qui s'exécute avec des contraintes de temps réel strictes. Une erreur de gestion mémoire ici n'est pas un bug d'affichage, c'est une catastrophe physique.
-        </p>
-        <p>
-            <strong>Dans la Cybersécurité :</strong> Le C est indispensable pour comprendre les vulnérabilités de bas niveau. Les exploits comme les <em>Buffer Overflows</em> ou les <em>Heap Spraying</em> reposent sur une compréhension intime de la mémoire en C. Un expert en sécurité doit savoir lire et écrire du C pour auditer les noyaux de systèmes d'exploitation ou analyser des malwares.
-        </p>
-        <p>
-            <strong>Vers les Langages de Demain :</strong> Le C est le socle qui rend l'apprentissage de n'importe quel autre langage (C++, Rust, Java, Python) dérisoire. En comprenant comment la mémoire est gérée manuellement, l'étudiant comprend les abstractions que les autres langages lui proposent, faisant de lui un ingénieur capable de choisir l'outil le plus performant pour chaque mission.
+            Maîtriser le C, c'est comprendre comment tout le reste fonctionne. C'est le langage utilisé pour les noyaux de systèmes d'exploitation (Linux, Windows), les moteurs de jeux vidéo et les systèmes embarqués. En apprenant à gérer manuellement vos ressources, vous devenez un ingénieur capable de s'adapter à n'importe quel autre langage avec une facilité déconcertante.
         </p>
     </div>
-
-<hr>
-
-    
 </body>
 <?php include '../php/footer.php'; ?>
 </html>

@@ -14,42 +14,55 @@
 
 <body>
     <div class="matiere-web">
-        <h2>Développement Web : Ingénierie des Interfaces, UX et Performance des Applications Full-Stack</h2>
+        <h2>Développement Web Dynamique : Interfaces, UX et Ingénierie Full-Stack</h2>
         <img src="../images/Web.jpg" alt="Développement Web Moderne" style="width: 100%; max-width: 900px; height: 450px; object-fit: cover; border-radius: 8px;">
 
         <p>
-            Le développement web correspond à l'ensemble des techniques permettant de concevoir, structurer, styliser et rendre interactifs des sites et applications accessibles depuis un navigateur, en s'appuyant sur des technologies fondamentales comme HTML pour organiser le contenu, CSS pour définir l'apparence visuelle et l'agencement des éléments à l'écran, et JavaScript pour ajouter des fonctionnalités dynamiques et interactives côté client, tout en introduisant progressivement des notions plus avancées telles que la communication avec des serveurs via des requêtes HTTP, l'utilisation d'API pour échanger des données avec des services externes, la gestion des événements utilisateurs, la validation des formulaires ou encore l'optimisation des performances des pages web, ce qui permet également d'aborder des problématiques essentielles comme l'accessibilité numérique, la compatibilité entre navigateurs, l'adaptation aux différents supports grâce au responsive design, ainsi que les bonnes pratiques de structuration du code et d'organisation des projets, offrant ainsi aux étudiants les compétences nécessaires pour concevoir des interfaces modernes, ergonomiques et fonctionnelles répondant aux standards actuels du développement web professionnel. 🌍
+            Le développement web est l'art de bâtir les outils numériques de notre quotidien. Ce module de 60 heures vous forme à la maîtrise complète de la chaîne de production, du design d'interface (Front-end) à la logique serveur (Back-end). Vous apprendrez à transformer une page statique en une application interactive et performante, capable de traiter des données en temps réel et de s'adapter à tous les supports. 🌍
         </p>
 
-        <h3>Le Cycle de Création : Une Séance de 5 Heures de Production</h3>
+        <h3>Déroulé du module (12 séances de 5 heures)</h3>
+        
         <p>
-            Le module de Web est un studio d'innovation. On n'y apprend pas à faire des "sites", mais à construire des outils numériques complexes.
+            <strong>Séances 1 &amp; 2 : Fondations HTML5 et Sémantique :</strong> 
+            Apprentissage de la structure du web. Vous étudierez comment organiser le contenu de manière accessible et optimisée pour le référencement (SEO), en utilisant les balises modernes du standard W3C.
         </p>
         <p>
-            <strong>Conception et Ergonomie (1 heure) :</strong> On commence par la psychologie de l'utilisateur. Comment l'œil circule-t-il sur une page ? Comment rendre une interface intuitive ? On étudie le Responsive Design poussé à l'extrême : un même code doit être parfait sur un écran de cinéma comme sur une montre connectée. On aborde la sémantique HTML pour le référencement naturel (SEO) et l'inclusion numérique (Accessibilité).
+            <strong>Séances 3 &amp; 4 : Design Responsif et CSS3 Avancé :</strong> 
+            Maîtrise de l'apparence. Vous apprendrez à styliser vos interfaces avec Flexbox et Grid, tout en intégrant les Media Queries pour garantir une expérience utilisateur parfaite sur smartphone, tablette et ordinateur.
         </p>
         <p>
-            <strong>Développement JS et Architecture Front (3 heures) :</strong> C'est la partie intensive. Les étudiants manipulent le JavaScript asynchrone pour créer des interfaces fluides qui communiquent avec des serveurs sans jamais recharger la page. Ils apprennent à gérer les états complexes, à sécuriser les transactions côté client et à utiliser les dernières API du Web (Géolocalisation, Notifications, Stockage local).
+            <strong>Séances 5 &amp; 6 : Programmation JavaScript Client :</strong> 
+            Rendre le web vivant. Cette phase est dédiée à l'interactivité : manipulation du DOM, gestion des événements utilisateurs et introduction à l'asynchrone pour dynamiser vos interfaces sans recharger la page.
         </p>
         <p>
-            <strong>Performance et Déploiement (1 heure) :</strong> Audit de vitesse avec <em>Lighthouse</em>. Chaque milliseconde gagnée est une victoire. Les étudiants apprennent à optimiser leurs ressources et à mettre en ligne leurs projets sur des infrastructures Cloud modernes avec des pipelines de déploiement automatique.
+            <strong>Séance 7 : Introduction au PHP et Back-end :</strong> 
+            Connexion au serveur. Vous découvrirez comment rendre vos sites dynamiques grâce au langage PHP, en apprenant à traiter des formulaires, gérer des sessions utilisateurs et communiquer avec une base de données.
+        </p>
+        <p>
+            <strong>Séances 8 à 11 : Atelier Projet - Site Vitrine de l'École :</strong> 
+            Quatre séances intensives de production. En équipe, vous devrez concevoir le site vitrine officiel de l'école. Ce projet professionnel mobilise l'ensemble de vos compétences : intégration HTML/CSS, animations JS et gestion de contenu dynamique.
+        </p>
+        <p>
+            <strong>Séance 12 : Soutenance et Évaluation Finale :</strong> 
+            Conclusion du cycle. Vous présenterez votre projet devant un jury pour valider vos choix techniques et ergonomiques, suivi d'un examen final mixant QCM et épreuve de code en temps limité.
         </p>
 
-        <h3>Évaluation : Le Verdict de l'Utilisateur et du Code</h3>
+        <h3>Modalités d'évaluation</h3>
         <ul>
-            <li><strong>Le Projet Fil Rouge (60%) :</strong> Création d'une application web complète (ex: une plateforme de réservation ou un réseau social thématique). On note l'esthétique, la rapidité, l'accessibilité et la propreté du code source.</li>
-            <li><strong>Le Hackathon (20%) :</strong> Une épreuve de 24h pour résoudre un problème de société par le code web.</li>
-            <li><strong>Test Technique (20%) :</strong> Validation des connaissances sur les standards du W3C et les moteurs JS.</li>
+            <li><strong>Projet Site Vitrine (40%) :</strong> Création complète de l'interface de l'école. La note porte sur le respect de la charte graphique, la propreté du code et l'adaptabilité mobile.</li>
+            <li><strong>Examen Final (40%) :</strong> Une épreuve globale comprenant un QCM théorique et une mise en pratique de développement (HTML/CSS/JS/PHP).</li>
+            <li><strong>Contrôle Continu (20%) :</strong> Un QCM intermédiaire pour valider l'acquisition des concepts fondamentaux du web avant le lancement du projet.</li>
         </ul>
 
-        <h3>Clés du Succès : Créativité et Veille Permanente</h3>
+        <h3>Clés de Réussite : Empathie et Veille Technique</h3>
         <p>
-            Pour réussir, il faut cultiver <strong>l'empathie</strong> (penser à l'utilisateur) et une <strong>curiosité insatiable</strong>. Le web change tous les six mois ; savoir apprendre par soi-même en lisant la documentation officielle est la compétence n°1. La maîtrise de l'inspecteur de navigateur est également indispensable pour déboguer les interfaces en temps réel.
+            Pour briller en développement web, il faut cultiver l'empathie : mettez-vous toujours à la place de l'utilisateur final pour créer des interfaces fluides. Le web évoluant sans cesse, votre curiosité est votre meilleur atout. Prenez l'habitude de consulter la documentation officielle (MDN) et d'utiliser l'inspecteur de navigateur comme un outil de diagnostic permanent. Un bon développeur ne se contente pas de "faire marcher" un site, il écrit un code propre, sémantique et performant.
         </p>
 
-        <h3>Débouchés : Façonner l'Espace Public Numérique</h3>
+        <h3>Impact : Façonner l'Espace Public Numérique</h3>
         <p>
-            Le développeur web est l'architecte du quotidien. Il crée les outils que nous utilisons pour manger, nous informer, nous soigner et nous divertir. C'est une carrière à la fois technique et artistique, offrant une liberté totale et une demande mondiale qui ne faiblit jamais.
+            Le développeur web est l'architecte de notre vie connectée. Que ce soit pour s'informer, se soigner ou se divertir, vos créations sont le point de contact entre la technologie et l'humain. Maîtriser ce module, c'est s'ouvrir les portes d'un marché mondial en quête constante d'experts capables de concevoir les services numériques de demain.
         </p>
     </div>
 </body>

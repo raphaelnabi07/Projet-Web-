@@ -18,33 +18,46 @@
         <img src="../images/bdd.jpg" alt="Gestion de données massives" style="width: 100%; max-width: 900px; height: 450px; object-fit: cover; border-radius: 8px;">
 
         <p>
-            La matière Bases de données permet d'apprendre à organiser, modéliser, stocker et exploiter efficacement de grandes quantités d'informations dans des systèmes informatiques complexes, en introduisant d'abord les principes de la modélisation conceptuelle des données à travers la définition d'entités, d'attributs et de relations, puis en étudiant la transformation de ces modèles en structures relationnelles composées de tables reliées entre elles par des clés primaires et étrangères, tout en utilisant le langage SQL pour interroger, modifier, insérer ou supprimer des données de manière précise et performante, ce qui conduit également à comprendre des notions essentielles comme la normalisation des tables afin d'éviter la redondance d'informations, la gestion des transactions pour garantir la cohérence des données, le contrôle des accès utilisateurs pour assurer la sécurité des systèmes, ainsi que l'optimisation des requêtes pour améliorer les performances des applications manipulant de grands volumes d'informations, compétences indispensables pour le développement d'applications web dynamiques, de logiciels métiers ou de systèmes d'information utilisés dans la plupart des environnements numériques professionnels actuels. 📊
+            Ce module est conçu pour transformer votre compréhension des données, passant d'un simple stockage à une architecture structurée et performante. À travers l'apprentissage des cycles de conception et du langage SQL, vous acquerrez les compétences nécessaires pour bâtir des systèmes d'information robustes, capables de soutenir des applications professionnelles et des analyses de données massives. 📊
         </p>
 
-        <h3>Parcours d'une Séance de 5 Heures : Dompter le Chaos</h3>
+        <h3>Déroulé du module (6 séances de 5 heures)</h3>
+        
         <p>
-            Le cours de Bases de Données apprend à ranger le monde dans des boîtes logiques parfaites.
+            <strong>Séance 1 : Le Modèle Conceptuel de Données (MCD) :</strong> 
+            Apprentissage de la sémantique des données. Vous apprendrez à traduire des règles de gestion métier en entités et associations, en définissant les propriétés et les cardinalités pour structurer l'information de manière logique.
         </p>
         <p>
-            <strong>Modélisation Conceptuelle (90 minutes) :</strong> On apprend à transformer un besoin métier flou en un schéma mathématique pur. Les étudiants étudient les Formes Normales pour garantir qu'aucune donnée ne soit jamais dupliquée. C'est la phase d'architecture pure : une erreur ici condamne le projet à long terme.
+            <strong>Séance 2 : Le Modèle Logique de Données (MLD) :</strong> 
+            Passage de l'abstrait au concret. Cette séance est dédiée à la dérivation du MCD vers un schéma relationnel. Vous manipulerez les concepts de clés primaires et étrangères pour préparer l'implémentation physique.
         </p>
         <p>
-            <strong>Requêtage SQL de Haute Volée (2h30) :</strong> Manipulation de millions de lignes. Les étudiants apprennent à poser des questions complexes à la machine : jointures multiples, sous-requêtes, agrégations massives. Ils apprennent à garantir la cohérence des données grâce aux transactions (ACID), essentielles pour les systèmes bancaires.
+            <strong>Séance 3 : Normalisation et 3FN (Formes Normales) :</strong> 
+            Optimisation de la structure. Vous étudierez les trois premières formes normales pour éliminer les redondances, éviter les anomalies de mise à jour et garantir l'intégrité de votre base de données.
         </p>
         <p>
-            <strong>Performance et Tuning (1 heure) :</strong> On apprend qu'une base de données est vivante. On étudie les index pour accélérer les recherches et on apprend à sécuriser les accès pour protéger la vie privée et les secrets industriels.
+            <strong>Séance 4 : Remplissage et Manipulation (DML) :</strong> 
+            Passage à la pratique sur un SGBD. Vous apprendrez à peupler vos tables de manière cohérente, à gérer l'importation de jeux de données et à maintenir la qualité des informations lors de l'insertion.
+        </p>
+        <p>
+            <strong>Séance 5 : Requêtage SQL Avancé :</strong> 
+            Maîtrise de l'extraction de données. Cette séance se concentre sur les sélections complexes, les jointures multiples, les fonctions d'agrégation et les sous-requêtes pour répondre à des besoins d'analyse précis.
+        </p>
+        <p>
+            <strong>Séance 6 : Soutenance et Évaluations Finales :</strong> 
+            Conclusion du module. Cette dernière séance est consacrée à la présentation orale de votre projet de groupe devant un jury, suivie du passage du QCM final pour valider vos acquis théoriques et techniques.
         </p>
 
-        <h3>Évaluation : L'Efficacité avant Tout</h3>
+        <h3>Modalités d'évaluation</h3>
         <ul>
-            <li><strong>L'Audit de Modélisation (40%) :</strong> Transformer un scénario client en un schéma sans faille.</li>
-            <li><strong>L'Examen SQL (40%) :</strong> Extraire des données précises sous pression de temps sur des volumes massifs.</li>
-            <li><strong>Le Projet Logiciel (20%) :</strong> Intégrer une base de données réelle dans une application métier.</li>
+            <li><strong>Projet en Groupe (40%) :</strong> Présentation orale et rendu technique d'un système complet conçu à partir d'un cahier des charges réel (MCD, MLD et implémentation).</li>
+            <li><strong>QCM Final (40%) :</strong> Une épreuve individuelle portant sur la maîtrise de la syntaxe SQL et les concepts de normalisation sous pression de temps.</li>
+            <li><strong>TP (20%) :</strong> Une évaluation pratique en séance visant à valider votre capacité à manipuler techniquement un outil de gestion de base de données.</li>
         </ul>
 
-        <h3>Clés de Réussite : Logique et Anticipation</h3>
+        <h3>Clés de Réussite : Méthodologie et Pratique</h3>
         <p>
-            Réussir demande un <strong>esprit d'analyse</strong> très développé. Il faut savoir simplifier la complexité et anticiper la croissance des données. Un bon ingénieur prévoit toujours comment le système réagira dans 10 ans avec 1000 fois plus de données.
+            Pour réussir ce module, vous devez adopter une démarche rigoureuse dès la phase de conception : une erreur dans votre MCD impactera toute la suite de votre projet. Ne vous contentez pas de comprendre la syntaxe SQL, pratiquez régulièrement sur des jeux de données variés. La curiosité et l'attention portée aux détails lors de la normalisation (3FN) seront vos meilleurs atouts pour construire des systèmes évolutifs et performants.
         </p>
 
         <h3>Impact : Le Moteur de l'Intelligence Artificielle</h3>
