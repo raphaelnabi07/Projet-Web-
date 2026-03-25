@@ -1030,3 +1030,151 @@ img:hover {
     color: #1d5d96;
     font-weight: 700;
 }
+
+.body-gestion {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.h2-gestion {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.table-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 1100px;
+}
+
+.table-gestion {
+    width: 100%;
+}
+
+.th-gestion {
+    background-color: #448aff;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.td-gestion {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+    font-size: 14px;
+}
+
+.tr-gestion:hover {
+    background-color: #f5f9ff;
+}
+
+.btn-v, .btn-s {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: 600;
+    background: white;
+    transition: 0.2s;
+}
+
+.btn-v {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-v:hover {
+    background: #28a745;
+    color: white;
+}
+
+.btn-s {
+    color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-s:hover {
+    background: #dc3545;
+    color: white;
+}
+
+.user-info {
+    text-align: right;
+    margin-bottom: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+.logout-link {
+    color: #d93025;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login-container {
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.login-card button:hover {
+    background-color: #0056b3;
+}
+
+.error-msg {
+    color: #d93025;
+    margin-bottom: 15px;
+    font-weight: bold;
+}

@@ -13,6 +13,7 @@
                     <a href="../html/langageC.php"><strong>Langage C</strong></a>
                     <a href="../html/reseau.php"><strong>Réseau</strong></a>
                     <a href="../html/webdynamique.php"><strong>Web Dynamique</strong></a>
+                    <a href="../html/login.php"><strong>Permanence</strong></a>
                 </div>
             </li>
             <a href="../html/equipeenseignante.php"><strong>Équipe enseignants</strong></a>

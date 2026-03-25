@@ -22,6 +22,6 @@
     </div>
     
     <div>
-        <p>Dernière modification : 20/02/2026</p>
+        <p>Dernière modification : 30/02/2026</p>
     </div>
 </footer>
