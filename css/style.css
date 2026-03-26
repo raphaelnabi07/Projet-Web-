@@ -7,6 +7,12 @@ body{
     line-height: 1.6;
 }
 
+.menu-header {
+    list-style-type: none; /* Enlève les puces/points */
+    margin: 0;             /* Enlève les marges extérieures */
+    padding: 0;            /* Enlève le décalage intérieur gauche */
+}
+
 .haut-accueil{
     background-color: rgba(40, 59, 99,0.8);
     margin: 10px;
