@@ -11,7 +11,6 @@
 
 <body> 
 <?php include '../php/header.php'; ?>
-
 <main> 
     <section class="Locaux-Efrei">
         <h1> Locaux de l'Efrei (Paris)</h1>
@@ -128,6 +127,6 @@
             </p>
         </div>
     </section>
-
+</main>
 <?php include '../php/footer.php'; ?>
 </html>

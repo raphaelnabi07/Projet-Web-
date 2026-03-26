@@ -24,9 +24,9 @@
                         Elle a pour mission d'initier les étudiants aux enjeux de la <strong>cybersécurité</strong> à travers des activités concrètes.<br>
                     </p>
                     <ul>
-                        <br><li><strong>Initiation aux CTF :<br></strong> Apprentissage des compétitions "Capture The Flag" (recherche de vulnérabilités) ;</li><br>
-                        <li><strong>Compétitions universitaires :<br></strong> Participation active aux grands événements nationaux et internationaux ;</li><br>
-                        <li><strong>Élite Cybersécurité :<br></strong> Formation d'une équipe dédiée pour la prestigieuse compétition InCyber.</li><br>
+                        <li><strong>Initiation aux CTF :<br></strong> Apprentissage des compétitions "Capture The Flag" (recherche de vulnérabilités) ;<br></li>
+                        <li><strong>Compétitions universitaires :<br></strong> Participation active aux grands événements nationaux et internationaux ;<br></li>
+                        <li><strong>Élite Cybersécurité :<br></strong> Formation d'une équipe dédiée pour la prestigieuse compétition InCyber.<br></li>
                     </ul>
                     <p>
                         Que vous soyez débutant curieux ou expert en hacking éthique, CTfrei offre un <strong>cadre stimulant</strong> pour développer 
@@ -48,9 +48,9 @@
                         <br>Elle permet aux étudiants de <strong>transformer leurs idées en solutions réelles</strong> tout en renforçant leur expertise technique.
                     </p>
                     <ul>
-                        <br><li><strong>Réalisations concrètes :<br></strong> Développement d'applications mobiles, de logiciels et de sites web ;</li><br>
-                        <li><strong>Ateliers de création :<br></strong> Sessions pratiques pour booster la créativité et la maîtrise des outils numériques ;</li><br>
-                        <li><strong>Gestion de projet :<br></strong> Apprentissage des méthodes de travail en groupe et des compétences professionnelles.</li><br>
+                        <li><strong>Réalisations concrètes :<br></strong> Développement d'applications mobiles, de logiciels et de sites web ;<br></li>
+                        <li><strong>Ateliers de création :<br></strong> Sessions pratiques pour booster la créativité et la maîtrise des outils numériques ;<br></li>
+                        <li><strong>Gestion de projet :<br></strong> Apprentissage des méthodes de travail en groupe et des compétences professionnelles.<br></li>
                     </ul>
                     <p>
                         Grâce à un environnement axé sur le partage et l'innovation, l'association offre un <strong>cadre idéal</strong> pour ceux qui 
@@ -72,9 +72,9 @@
                         Elle propose une multitude d'activités pour rassembler la communauté des gamers et organiser des événements mémorables.
                     </p>
                     <ul>
-                        <br><li><strong>Tournois e-sport :<br></strong> Organisation de compétitions sur divers jeux (LoL, <strong>VALORANT</strong>, etc.) ;</li><br>
-                        <li><strong>Soirées Gaming :<br></strong> Sessions conviviales pour jouer ensemble et partager des moments de détente ;</li><br>
-                        <li><strong>Streaming et événements :<br></strong> Diffusion en direct et participation à des LANs ou salons de jeux.</li><br>
+                        <li><strong>Tournois e-sport :<br></strong> Organisation de compétitions sur divers jeux (LoL, <strong>VALORANT</strong>, etc.) ;<br></li>
+                        <li><strong>Soirées Gaming :<br></strong> Sessions conviviales pour jouer ensemble et partager des moments de détente ;<br></li>
+                        <li><strong>Streaming et événements :<br></strong> Diffusion en direct et participation à des LANs ou salons de jeux.<br></li>
                     </ul>
                     <p>
                         Que vous soyez joueur occasionnel ou compétiteur acharné, Club Rézo offre un espace dynamique pour 
@@ -83,6 +83,7 @@
                 </div>
             </div>
         </div>
+    </section>
 </main>
 <?php include '../php/footer.php'; ?>
 </html>

@@ -17,7 +17,7 @@
                 <div class="photo-container">
                     <img src="../images/PDP-Raph.jpg" alt="Photo Raphaël" class="photo-profil">
                 </div>
-                <h3>Raphaël Nabi</h3>
+                <h2>Raphaël Nabi</h2>
                 <p>Étudiant à l'EFREI</p>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/rapha%C3%ABl-nabi/" target="_blank" class="link-linkedin">
@@ -33,7 +33,7 @@
                 <div class="photo-container">
                     <img src="../images/PDP-Thierno.jpg" alt="Photo Thierno" class="photo-profil">
                 </div>
-                <h3>Thierno Diallo</h3>
+                <h2>Thierno Diallo</h2>
                 <p>Étudiant à l'EFREI</p>
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/thierno-diallo-efrei/" target="_blank" class="link-linkedin">

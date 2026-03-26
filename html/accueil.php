@@ -37,7 +37,7 @@
                     <h2>Liens vers nos modules :</h2>
 
                     <div class="lien-modules">
-                        <a href="../html/langageC.php"> <img src="../images/C.jpg" width="150" height="150" alt="Module C" href="../html/langageC.php"></a>
+                        <a href="../html/langageC.php"> <img src="../images/C.jpg" width="150" height="150" alt="Module C"></a>
                         <a href="../html/reseau.php"> <img src="../images/Reseau.jpg" width="150" height="150" alt="Module Réseau"></a>
                         <a href="../html/webdynamique.php"> <img src="../images/HTML-CSS.jpg" width="150" height="150" alt="Module Web"></a>
                         <a href="../html/basededonnee.php"> <img src="../images/BDD.jpg" width="150" height="150" alt="Module BDD"></a>
@@ -102,7 +102,7 @@
             </div>
             <div class="stat-card">
                 <span class="stat-number">98%</span>
-                <span class="stat-label">Emploi en < 2 mois</span>
+                <span class="stat-label">Emploi en - 2 mois</span>
             </div>
         </div>
     </section>

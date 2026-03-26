@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EFREI Informatique</title>
+</head>
 <header class="haut-accueil">
     <div>
         <div>
@@ -6,16 +13,18 @@
 
         <nav>
             <a href="../html/accueil.php"><strong>Accueil</strong></a>
-            <li class="dropdown" id="Menu">
-                <a href="#"><strong>Permanences et Cours ▾</strong></a>
-                <div class="sous-menu-content">
-                    <a href="../html/basededonnee.php"><strong>Base de donnée</strong></a>
-                    <a href="../html/langageC.php"><strong>Langage C</strong></a>
-                    <a href="../html/reseau.php"><strong>Réseau</strong></a>
-                    <a href="../html/webdynamique.php"><strong>Web Dynamique</strong></a>
-                    <a href="../html/login.php"><strong>Permanence</strong></a>
-                </div>
-            </li>
+            <menu class="menu-header">
+                <li class="dropdown" id="Menu">
+                    <a href="#"><strong>Permanences et Cours ▾</strong></a>
+                    <div class="sous-menu-content">
+                        <a href="../html/basededonnee.php"><strong>Base de donnée</strong></a>
+                        <a href="../html/langageC.php"><strong>Langage C</strong></a>
+                        <a href="../html/reseau.php"><strong>Réseau</strong></a>
+                        <a href="../html/webdynamique.php"><strong>Web Dynamique</strong></a>
+                        <a href="../html/login.php"><strong>Permanence</strong></a>
+                    </div>
+                </li>
+            </menu>
             <a href="../html/equipeenseignante.php"><strong>Équipe enseignants</strong></a>
             <a href="../html/association.php"><strong>Associations</strong></a>
             <a href="../html/locaux.php"><strong>Locaux</strong></a>
