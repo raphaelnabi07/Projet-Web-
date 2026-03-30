@@ -27,6 +27,7 @@
                     <th class="th-gestion">Matière</th>
                     <th class="th-gestion">Date</th>
                     <th class="th-gestion">Heure</th>
+                    <th class="th-gestion">Format</th>
                     <th class="th-gestion">Statut</th>
                     <th class="th-gestion">Actions</th>
                 </tr>
@@ -41,6 +42,7 @@
                         <td class="td-gestion"><?php echo ($row['matiere']); ?></td>
                         <td class="td-gestion"><?php echo ($row['date_permanence']); ?></td>
                         <td class="td-gestion"><?php echo ($row['heure_souhaitee']); ?></td>
+                        <td class="td-gestion"><?php echo ($row['format_seance']); ?></td>
                         <td class="td-gestion" id="statut-<?php echo $row['id']; ?>">
                             <?php 
                                 $etat = isset($row['statut']) ? $row['statut'] : 'En attente';
